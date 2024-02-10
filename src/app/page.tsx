@@ -72,8 +72,8 @@ export default async function Component() {
                      <div className="mx-auto aspect-video overflow-hidden bg-neutral-100 dark:bg-neutral-800 rounded-xl object-cover object-center sm:w-full lg:order-last" />
                      <div className="flex flex-col justify-center space-y-4">
                         <ul className="grid gap-6">
-                           {mascotas.map(({ nombre, descripcion }) => (
-                              <li>
+                           {mascotas.map(({ id, nombre, descripcion }) => (
+                              <li key={id}>
                                  <div className="grid gap-1">
                                     <h3 className="text-xl font-bold">{nombre}</h3>
                                     <p className="text-neutral-500 dark:text-neutral-400">{descripcion}</p>

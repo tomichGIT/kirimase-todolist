@@ -1,0 +1,17 @@
+{
+  "hasSrc": true,
+  "packages": [
+    "shadcn-ui",
+    "prisma",
+    "next-auth"
+  ],
+  "preferredPackageManager": "pnpm",
+  "t3": false,
+  "alias": "@",
+  "rootPath": "src/",
+  "componentLib": "shadcn-ui",
+  "provider": "planetscale",
+  "orm": "prisma",
+  "driver": "mysql",
+  "auth": "next-auth"
+}
